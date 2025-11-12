@@ -1,0 +1,24 @@
+{
+  "name": "vs-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "allure-playwright": "^3.3.3"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "fs": "^0.0.1-security",
+    "pdf-lib": "^1.17.1",
+    "xlsx": "^0.18.5"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
