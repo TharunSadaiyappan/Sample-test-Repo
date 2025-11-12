@@ -19,9 +19,9 @@ test('ts Check', async ({ browser }) => {
      const second_page= test.info().project.use.second_page;
      const three_page= test.info().project.use.three_page;
 
-  console.log('First page:', first_page);
-  console.log('Second page:', second_page);
-  console.log('Third page:', three_page);   
+//   console.log('First page:', first_page);
+//   console.log('Second page:', second_page);
+//   console.log('Third page:', three_page);   
     // Get the total count
     const count = await links.count();
     console.log(count);
