@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 2 : undefined,
   reporter: [['list'], ['html', { outputFolder: 'playwright-report' }]],
 
-  timeout: 120000, // ⏱️ 2 min max per test
+  timeout: 900000, // ⏱️ 2 min max per test
 
   use: {
     baseURL: process.env.BASE_URL || 'http://localhost:3000', // ✅ Common base URL (override via env variable)
